@@ -1,0 +1,6 @@
+For windows version you need to install OpenSSL libraries. You can install them with the installer contained in the directory "need_for_windows"
+
+-Coin per block = 2.00
+-6 block for confirm a transaction
+-difficult retarget every half day
+-30 seconds block target

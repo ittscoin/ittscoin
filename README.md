@@ -20,6 +20,8 @@ So actually, this 'new' coin exists for the following reasons:
 
 PS: NEED OpenSSL libraries to work correctly!!
  
+ You can download a wallet-Qt for Windows here: https://mega.nz/#!EsAyxQiS!T66bVLtYGPPJoQILwZVQJWsPjkGzq08bZTewqGWiIIg
+ 
 Development process
 ===================
 
