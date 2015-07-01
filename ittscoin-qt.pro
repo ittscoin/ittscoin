@@ -15,6 +15,15 @@ CONFIG += no_include_pwd
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
 
+BOOST_INCLUDE_PATH = C:\\boost_1_55_0
+BOOST_LIB_PATH = C:\\boost_1_55_0\\stage\\lib
+BDB_INCLUDE_PATH = C:\\db-4.8.30.NC\\build_unix
+BDB_LIB_PATH = C:\\db-4.8.30.NC\\build_unix
+OPENSSL_INCLUDE_PATH = C:\\openssl-1.0.1o\\include
+OPENSSL_LIB_PATH = C:\\openssl-1.0.1o
+MINIUPNPC_INCLUDE_PATH = C:\\miniupnpc-1.6
+MINIUPNPC_LIB_PATH = C:\\miniupnpc-1.6
+
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
@@ -288,7 +297,7 @@ OTHER_FILES += \
 # platform specific defaults, if not overridden on command line
 isEmpty(BOOST_LIB_SUFFIX) {
     macx:BOOST_LIB_SUFFIX = -mt
-    windows:BOOST_LIB_SUFFIX = -mgw44-mt-s-1_49
+    windows:BOOST_LIB_SUFFIX = -mgw48-mt-d-1_55
 }
 
 isEmpty(BOOST_THREAD_LIB_SUFFIX) {
